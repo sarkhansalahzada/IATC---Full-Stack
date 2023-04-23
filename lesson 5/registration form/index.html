@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div class="form-wrap">
+        <h1>Registration Form</h1>
+        <form>
+          <div class="form-group">
+            <label for="first-name">First Name</label> 
+            <input type="text" name="firstName" id="first-name" />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="lastName" id="last-name" />
+          </div>
+          <div class="form-group">
+            <label for="nick-name">Nick Name</label>
+            <input type="text" name="nickName" id="nick-name" />
+          </div>
+          <div class="form-group">
+            <label for="email" >Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="date-of-birth">
+            <label for="date-of-birth">Date of Birth</label>
+            <input type="date" name="datemax" id="datemax" />
+          </div>
+          <div class="gender-selector">
+            <label for="gender-picker">Gender</label>
+            <input type="radio" name="gender" value ="male" id="gender" /> Male
+            <input type="radio" name="gender" value ="female" id="gender" /> Female
+            <input type="radio" name="gender" value ="others" id="gender" /> Others
+          </div>
+          <div class="form-group">
+            <label for="mobile">Mobile Number</label>
+            <input type="tel" name="nickName" id="mobile"/>
+          </div>
+          <div class="form-group">
+            <label for="adress">Address</label>
+            <textarea name="address" id="address"></textarea>
+          </div>
+          <button type="submit" class="btn">REGISTER</button>
+          <button type="reset" class="btn">RESET</button>
+          <p class="bottom-text">
+            By clicking the REGISTER button, you agree to our
+            <a href="#">Terms & Conditions</a> and
+            <a href="#">Privacy Policy</a>.
+          </p>
+        </form>
+      </div>
+      <footer>
+        <p>Already have an account? <a href="#">Login Here</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
