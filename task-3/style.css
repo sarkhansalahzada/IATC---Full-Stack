@@ -27,7 +27,7 @@ section{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.right{
+.left{
   width: 50%;
   height: 100%;
   background: linear-gradient(rgb(115, 73, 232), hsla(256, 72%, 46%, 1));
@@ -81,7 +81,7 @@ section{
   color: rgb(175, 169, 169);
 }
 
-.left{
+.right{
   padding: 27px;
   width: 50%;
   color: hsl(224, 30%, 27%);
@@ -105,8 +105,8 @@ section{
 
 .data img{
   margin-right: 10px;
- width: 15px;
- height: 15px;
+  width: 15px;
+  height: 15px;
   align-items: center; 
 }
 
@@ -116,8 +116,8 @@ section{
 }
 
 .summary{
-font-size: 20px;
-font-weight: 400;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .react{
@@ -133,7 +133,7 @@ font-weight: 400;
 }
 
 .visual{
-color: rgb(42,58,214);
+  color: rgb(42,58,214);
 }
 
 .hundred{
