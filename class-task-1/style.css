@@ -60,8 +60,23 @@ p{
 h2{
   color: var(--lightGray);
   padding: 16px 0;
-  font-size: 13px;
+  font-size: 18px;
 }
+
+h4{
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.kira h4 , .jeanette h4{
+  color: #252525 !important;
+}
+
+.kira h2 , .jeanette h2 {
+  color: #252525;
+}
+
+
 
 .profile-name > .name {
   padding-left: 25px;
