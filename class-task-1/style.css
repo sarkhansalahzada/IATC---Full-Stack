@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Outfit:wght@500;700;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 60px;
+  padding: 150px;
+}
+
+.daniel-and-jonathan {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  gap: 60px;
+}
+
+.jeanette-and-patrick{
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.profile-name {
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo img {
+  border-radius: 50%;
+}
+
+h2{
+  padding: 16px 0;
+}
+
+

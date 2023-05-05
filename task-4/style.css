@@ -63,3 +63,9 @@ body > main {
 	width: 360px;
 	height: 200px;
 }
+
+.card > img {
+	width: 20px;
+	height: 20px;
+	color: #000000;
+}
