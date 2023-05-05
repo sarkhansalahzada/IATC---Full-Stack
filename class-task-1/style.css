@@ -6,25 +6,40 @@
   box-sizing: border-box;
 }
 
+:root{
+    --moderateViolet: hsl(263, 55%, 52%);
+    --grayishBlue: hsl(217, 19%, 35%);
+    --veryDarkBlackishBlue: hsl(219, 29%, 14%) ;
+    --white: hsl(0, 0%, 100%);
+    --lightGray:hsl(0, 0%, 81%) ;
+    --LightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+
 main{
   font-family: 'Barlow Semi Condensed', sans-serif;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 60px;
+  gap: 30px;
   padding: 150px;
+  place-content: center;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  background-color: var(--LightGrayishBlue);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .daniel-and-jonathan {
   display: grid;
   grid-template-columns: 5fr 2fr;
-  gap: 60px;
+  gap: 30px;
 }
 
 .jeanette-and-patrick{
   display: grid;
   grid-template-columns: 2fr 5fr;
-  gap: 60px;
-  margin-top: 60px;
+  gap: 30px;
+  margin-top: 30px;
 }
 
 .profile-name {
@@ -36,8 +51,46 @@ main{
   border-radius: 50%;
 }
 
-h2{
-  padding: 16px 0;
+
+p{
+  color: var(--lightGray);
+  font-size: 13px
 }
 
+h2{
+  color: var(--lightGray);
+  padding: 16px 0;
+  font-size: 13px;
+}
 
+.profile-name > .name {
+  padding-left: 25px;
+}
+
+.daniel {
+  padding: 20px;
+  background-color: var(--moderateViolet);
+  border-radius: 16px;
+}
+
+.jonathan {
+  padding: 20px;
+  background-color: var(--grayishBlue);
+  border-radius: 16px;
+}
+
+.jeanette {
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 16px;
+}
+.patrick {
+  padding: 20px;
+  background-color: var(--veryDarkBlackishBlue);
+  border-radius: 16px;
+}
+.kira {
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 16px;
+}
