@@ -37,6 +37,10 @@ main{
 
 }
 
+.btn-1:hover{
+  background: #666CA3;
+}
+
 .btn-2 {
   background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
   border-radius: 31.5px;
@@ -52,6 +56,11 @@ main{
   border: #F02AA6;
 }
 
+.btn-2:hover{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  border-color: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
 h1 {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-style: normal;
@@ -62,9 +71,7 @@ h1 {
 }
 
 .container-fluid p {
-  height: 84px;
-  width: 400px;
-  
+  height: 84px;  
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -100,20 +107,16 @@ h1 {
 
 .one-card{
   background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%) !important;
-border-radius: 15px;
-text-align: center;
-padding: 80px  0 80px 0;
-font-family: 'Plus Jakarta Sans', sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 32px;
-line-height: 40px;
-/* or 125% */
+  border-radius: 15px;
+  text-align: center;
+  padding: 80px  0 80px 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
 
-
-/* FFFFFF */
-
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 
@@ -144,21 +147,22 @@ border-radius: 15px!important;
   outline: none !important;
 }
 
-footer  {
-  width: 100%;
+.btn:hover{
+  color: #FFA7C3;
+}
+
+footer{
   height: 120px;
   top: 1725px;
-
   background: #13183F;
-  display: flex;
-  justify-content:space-between ;
-  align-items: center;
-  /* margin: 32px 100px; */
 }
 
-.footer-margin{
-  margin: 32px 100px;
+footer > .container {
+  display: flex;
+  justify-content:space-evenly ;
+  align-items: center;
 }
+
 
 
 .btn-3{
@@ -179,6 +183,9 @@ footer  {
   color: #FFFFFF;
 }
 
+.btn-3:hover{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
 
 
   
