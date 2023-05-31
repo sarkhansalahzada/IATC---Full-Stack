@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --second-font: Poppins, sans-serif;
+    --first-font: Josefin Sans, sans-serif;
+    --second-font: 'Poppins', sans-serif;
+    --theme-color: #d9135a;
+    --second-color: #f1f1f1;
+    --third-color: #015e6b;
+    --white: #ffffff;
+    --black: #000000;
+    --border-color: #dddddd;
+    --h1: normal 600 51px/1 var(--first-font);
+    --h2: normal 600 41px/1 var(--first-font);
+    --h3: normal 600 26px/1 var(--first-font);
+    --h4: normal 600 22px/1 var(--first-font);
+    --h5: normal 600 18px/1 var(--first-font);
+    --h6: normal 600 16px/1 var(--first-font);
+    --common-text: normal 400 14px/1.4 var(--second-font);
+}
+
+html , body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}

@@ -1,0 +1,28 @@
+.btn-light:hover{
+  background-color: #fff;
+  color: #d9135a;
+}
+.btn-outline-light:hover{
+  color: #d9135a;
+}
+
+.btn-red{
+  background-color: #d9135a;
+  color: #fff;
+}
+.btn-red:hover{
+  background-color: #fff;
+  border-color: #d9135a;
+  color: #d9135a;
+}
+
+.btn-primary-pink-outline{
+  background-color: #fff;
+  color: #d9135a;
+  border-color: #d9135a;
+}
+.btn-primary-pink-outline:hover{
+  background-color: #d9135a;
+  color: #fff;
+}
+
