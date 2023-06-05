@@ -6,10 +6,10 @@
 // output: hello world
 // example: [83, 97, 108, 97, 109, 32, 65, 122, 101, 114, 98, 97, 121, 99, 97, 110]
 // example: [106, 97, 118, 97, 115, 99, 114, 105, 112, 116, 32, 105, 115, 32, 98, 111, 109, 98, 97]
-var example1 = [104, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100];
-var output1 = '';
-for (var i = 0; i < example1.length; i++) {
-  var word = String.fromCharCode(example1[i]);
+let example0 = [104, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100];
+let output1 = '';
+for (let i = 0; i < example1.length; i++) {
+  let word = String.fromCharCode(example1[i]);
   output1 += word;
 }
 console.log(output1);
@@ -19,10 +19,10 @@ console.log(output1);
 // output: [104, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100]
 // example: Salam Azerbaycan
 // example: javascript is bomba
-var example1 = "hello world";
-var asciiCodes1 = [];
-for (var i = 0; i < example1.length; i++) {
-  var code = example1.charCodeAt(i);
+let example1 = "hello world";
+let asciiCodes1 = [];
+for (let i = 0; i < example1.length; i++) {
+  let code = example1.charCodeAt(i);
   asciiCodes1.push(code);
 }
 console.log(asciiCodes1); 
@@ -30,11 +30,11 @@ console.log(asciiCodes1);
 // 3. Write a JavaScript program to convert a string to an array of characters.
 // example: hello world
 // output: ["h", "e", "l", "l", "o", " ", "w", "o", "r", "l", "d"]
-const str = 'hello world';
-const result = [];
-for (let i = 0; i < str.length; i++) {
+const str0 = 'hello world';
+const result0 = [];
+for (let i = 0; i < str0.length; i++) {
 	let letter = str[i];
-	result.push(letter);
+	result0.push(letter);
 }
 console.log(str, result);
 
@@ -42,11 +42,11 @@ console.log(str, result);
 // example: hello world
 // output: hll wrld
 
-const str = 'hello world';
+const str1 = 'hello world';
 const vowels = ['a', 'e', 'i', 'o', 'u'];
-let result = '';
+let result1 = '';
 // debugger;
-for (let i = 0; i < str.length; i++) {
+for (let i = 0; i < str1.length; i++) {
 	let letter = str[i];
 	let isVowel = false;
 	for (let j = 0; j < vowels.length; j++) {
@@ -57,7 +57,7 @@ for (let i = 0; i < str.length; i++) {
 		}
 	}
 	if (!isVowel) {
-		result += letter;
+		result1 += letter;
 	}
 }
 console.log({ str, result });
@@ -67,8 +67,8 @@ console.log({ str, result });
 // example: 1234567890a // false
 
 function containsOnlyDigits(str) {
-  for (var i = 0; i < str.length; i++) {
-    var charCode = str.charCodeAt(i);
+  for (let i = 0; i < str.length; i++) {
+    let charCode = str.charCodeAt(i);
     if (charCode < 48 || charCode > 57) {
       return false;
     }
@@ -82,11 +82,11 @@ function containsOnlyDigits(str) {
 // example: 1234567890a!@#$%^&*()_+ // false
 
 function containsOnlyDigitsAndLetters(str) {
-  var validCharacters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  for (var i = 0; i < str.length; i++) {
-    var char = str[i];
-    var isValidCharacter = false;
-    for (var j = 0; j < validCharacters.length; j++) {
+  let validCharacters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i];
+    let isValidCharacter = false;
+    for (let j = 0; j < validCharacters.length; j++) {
       if (char === validCharacters[j]) {
         isValidCharacter = true;
         break;
@@ -106,11 +106,11 @@ function containsOnlyDigitsAndLetters(str) {
 // example: HELLO WORLD!@#$%^&*()_+a // false
 
 function containsOnlyDigitsAndLetters(str) {
-  var validCharacters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  for (var i = 0; i < str.length; i++) {
-    var char = str[i];
-    var isValidCharacter = false;
-    for (var j = 0; j < validCharacters.length; j++) {
+  let validCharacters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i];
+    let isValidCharacter = false;
+    for (let j = 0; j < validCharacters.length; j++) {
       if (char === validCharacters[j]) {
         isValidCharacter = true;
         break;
@@ -129,10 +129,10 @@ function containsOnlyDigitsAndLetters(str) {
 // example: a man who thinks about the end, can not be a hero
 
 function uppercaseFirstLetterWithoutSpaces(str) {
-  var words = [];
-  var currentWord = '';
-  for (var i = 0; i < str.length; i++) {
-    var char = str[i];
+  let words = [];
+  let currentWord = '';
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i];
     if (char !== ' ') {
       currentWord += char;
     } else if (currentWord) {
@@ -144,11 +144,11 @@ function uppercaseFirstLetterWithoutSpaces(str) {
     words.push(currentWord);
   }
 
-  var result = '';
-  for (var j = 0; j < words.length; j++) {
-    var word = words[j];
-    var firstLetter = word[0].toUpperCase();
-    var restOfWord = word.slice(1);
+  let result = '';
+  for (let j = 0; j < words.length; j++) {
+    let word = words[j];
+    let firstLetter = word[0].toUpperCase();
+    let restOfWord = word.slice(1);
     result += firstLetter + restOfWord;
   }
 
@@ -162,10 +162,10 @@ function uppercaseFirstLetterWithoutSpaces(str) {
 // example: a man who thinks about the end, can not be a hero
 
 function removeDuplicates(str) {
-  var result = '';
-  var duplicates = {};
-  for (var i = 0; i < str.length; i++) {
-    var char = str[i];
+  let result = '';
+  let duplicates = {};
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i];
     if (!duplicates[char]) {
       result += char;
       duplicates[char] = true;
@@ -181,16 +181,16 @@ function removeDuplicates(str) {
 // example: a man who thinks about the end, can not be a hero
 
 function toCamelCase(str) {
-  var words = str.split(' ');
-  var result = '';
+  let words = str.split(' ');
+  let result = '';
   
-  for (var i = 0; i < words.length; i++) {
-    var word = words[i];
+  for (let i = 0; i < words.length; i++) {
+    let word = words[i];
     
     if (i === 0) {
       result += word.toLowerCase();
     } else {
-      var capitalizedWord = word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+      let capitalizedWord = word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
       result += capitalizedWord;
     }
   }
@@ -204,15 +204,15 @@ function toCamelCase(str) {
 // example: a man who thinks about the end, can not be a hero
 
 function toSnakeCase(str) {
-  var result = '';
+  let result = '';
   
-  for (var i = 0; i < str.length; i++) {
-    var char = str[i];
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i];
     
     if (char === ' ') {
       result += '_';
     } else if (char >= 'A' && char <= 'Z') {
-      var lowercaseChar = char.toLowerCase();
+      let lowercaseChar = char.toLowerCase();
       if (i !== 0) {
         result += '_';
       }
@@ -233,15 +233,15 @@ function toSnakeCase(str) {
 // example: madam // true
 
 function toKebabCase(str) {
-  var result = '';
+  let result = '';
   
-  for (var i = 0; i < str.length; i++) {
-    var char = str[i];
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i];
     
     if (char === ' ') {
       result += '-';
     } else if (char >= 'A' && char <= 'Z') {
-      var lowercaseChar = char.toLowerCase();
+      let lowercaseChar = char.toLowerCase();
       if (i !== 0) {
         result += '-';
       }
@@ -261,8 +261,8 @@ function toKebabCase(str) {
 // example: racecar // true
 
 function isPalindrome(str) {
-  var left = 0;
-  var right = str.length - 1;
+  let left = 0;
+  let right = str.length - 1;
   
   while (left < right) {
     if (str[left] !== str[right]) {
@@ -281,8 +281,8 @@ function isPalindrome(str) {
 // example: The quick brown fox jumps over the dog. // false
 
 function isPalindrome(str) {
-  var left = 0;
-  var right = str.length - 1;
+  let left = 0;
+  let right = str.length - 1;
   
   while (left < right) {
     if (str[left] !== str[right]) {
@@ -306,17 +306,17 @@ function isAnagram(str1, str2) {
     return false;
   }
   
-  var charCount = {};
+  let charCount = {};
   
-  for (var i = 0; i < str1.length; i++) {
-    var char1 = str1[i];
-    var char2 = str2[i];
+  for (let i = 0; i < str1.length; i++) {
+    let char1 = str1[i];
+    let char2 = str2[i];
     
     charCount[char1] = (charCount[char1] || 0) + 1;
     charCount[char2] = (charCount[char2] || 0) - 1;
   }
   
-  for (var char in charCount) {
+  for (let char in charCount) {
     if (charCount[char] !== 0) {
       return false;
     }
